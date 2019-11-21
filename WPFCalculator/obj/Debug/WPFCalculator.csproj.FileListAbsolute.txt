@@ -1,0 +1,14 @@
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\bin\Debug\WPFCalculator.exe.config
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\bin\Debug\WPFCalculator.exe
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\bin\Debug\WPFCalculator.pdb
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator.csprojAssemblyReference.cache
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\App.g.cs
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator_MarkupCompile.cache
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator_MarkupCompile.lref
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\MainWindow.baml
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator.g.resources
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator.Properties.Resources.resources
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator.csproj.GenerateResource.cache
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator.exe
+C:\Users\vincent.lee.c.flores\Desktop\LeeSourceCode\WPFCalc\WPFCalculator\obj\Debug\WPFCalculator.pdb
