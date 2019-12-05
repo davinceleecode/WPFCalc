@@ -24,16 +24,16 @@
         </Grid.RowDefinitions>
         
         <!-- Number buttons -->
-        <Button x:Name="btn7" Grid.Row="2" Grid.Column="0">7</Button>
-        <Button x:Name="btn8" Grid.Row="2" Grid.Column="1">8</Button>
-        <Button x:Name="btn9" Grid.Row="2" Grid.Column="2">9</Button>
-        <Button x:Name="btn4" Grid.Row="3" Grid.Column="0">4</Button>
-        <Button x:Name="btn5" Grid.Row="3" Grid.Column="1">5</Button>
-        <Button x:Name="btn6" Grid.Row="3" Grid.Column="2">6</Button>
-        <Button x:Name="btn1" Grid.Row="4" Grid.Column="0">1</Button>
-        <Button x:Name="btn2" Grid.Row="4" Grid.Column="1">2</Button>
-        <Button x:Name="btn3" Grid.Row="4" Grid.Column="2">3</Button>
-        <Button x:Name="btn0" Grid.Row="5" Grid.Column="1">0</Button>
+        <Button x:Name="btn7" Grid.Row="2" Grid.Column="0" Click="BtnNumbers">7</Button>
+        <Button x:Name="btn8" Grid.Row="2" Grid.Column="1" Click="BtnNumbers">8</Button>
+        <Button x:Name="btn9" Grid.Row="2" Grid.Column="2" Click="BtnNumbers">9</Button>
+        <Button x:Name="btn4" Grid.Row="3" Grid.Column="0" Click="BtnNumbers">4</Button>
+        <Button x:Name="btn5" Grid.Row="3" Grid.Column="1" Click="BtnNumbers">5</Button>
+        <Button x:Name="btn6" Grid.Row="3" Grid.Column="2" Click="BtnNumbers">6</Button>
+        <Button x:Name="btn1" Grid.Row="4" Grid.Column="0" Click="BtnNumbers">1</Button>
+        <Button x:Name="btn2" Grid.Row="4" Grid.Column="1" Click="BtnNumbers">2</Button>
+        <Button x:Name="btn3" Grid.Row="4" Grid.Column="2" Click="BtnNumbers">3</Button>
+        <Button x:Name="btn0" Grid.Row="5" Grid.Column="1" Click="BtnNumbers">0</Button>
                 
         <!-- Maths button -->
         <Button x:Name="btnPlus" Grid.Row="1" Grid.Column="3">+</Button>
@@ -51,7 +51,7 @@
         <Button x:Name="btnPlusNegative" Grid.Row="5" Grid.Column="0">+-</Button>
         
         <!-- Display text box -->
-        <TextBox IsReadOnly="True" TextAlignment="Right" BorderThickness="0" VerticalAlignment="Bottom" FontSize="30" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">0</TextBox>
+        <TextBox x:Name="txtDisplay" IsReadOnly="True" TextAlignment="Right" BorderThickness="0" VerticalAlignment="Bottom" FontSize="30" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4">0</TextBox>
 
     </Grid>
 </Window>
