@@ -48,5 +48,75 @@ namespace WPFCalculator
                 txtDisplay.Text = number2.ToString();
             }
         }
+
+        private void BtnOperations(object sender, RoutedEventArgs e)
+        {
+            operation = ((Button)sender).Content.ToString();
+            txtDisplay.Text = "0";
+        }
+
+        private void btnEquals_Click(object sender, RoutedEventArgs e)
+        {
+            switch (operation)
+            {
+                case "+":
+                    txtDisplay.Text = (number1 + number2).ToString();
+                    break;
+                case "-":
+                    txtDisplay.Text = (number1 - number2).ToString();
+                    break;
+                case "*":
+                    txtDisplay.Text = (number1 * number2).ToString();
+                    break;
+                case "/":
+                    txtDisplay.Text = (number1 / number2).ToString();
+                    break;
+            }
+        }
+
+        private void btnCE_Click(object sender, RoutedEventArgs e)
+        {
+            if (operation == "")
+                number1 = 0;
+            else
+                number2 = 0;
+            txtDisplay.Text = "0";
+        }
+
+        private void btnC_Click(object sender, RoutedEventArgs e)
+        {
+            number1 = 0;
+            number2 = 0;
+            operation = "";
+            txtDisplay.Text = "0";
+        }
+
+        private void btnBackspace_Click(object sender, RoutedEventArgs e)
+        {
+            if (operation == "")
+            {
+                number1 = (number1 / 10);
+                txtDisplay.Text = number1.ToString();
+            }
+            else
+            {
+                number2 = (number2 / 10);
+                txtDisplay.Text = number2.ToString();
+            }
+        }
+
+        private void btnPlusNegative_Click(object sender, RoutedEventArgs e)
+        {
+            if (operation == "")
+            {
+                number1 *= -1;
+                txtDisplay.Text = number1.ToString();
+            }
+            else
+            {
+                number2 = (number2 * 10);
+                txtDisplay.Text = number2.ToString();
+            }
+        }
     }
 }
